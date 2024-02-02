@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+body {
+    background-color: #1F1F1F;
+}
+
+nav {
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.disabled {
+    pointer-events: none;
+    color: #585C5F;
+}
+
+.text-nav {
+    font-size: 22px;
+    color: white;
+    margin: 20px;
+
+}
+
+div a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9A9C9E;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.searchbar {
+    margin-left: 50px;
+}
+
+input,
+button {
+    border-radius: 5px;
+    height: 35px;
+    padding: 8px;
+}
+
+button {
+    background-color: #212529;
+    border: 1px solid #198754;
+    color: #198754;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+select {
+    background: #212529;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
