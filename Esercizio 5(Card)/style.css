@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#card {
+    border: 2px solid rgb(231, 229, 229);
+    max-width: fit-content;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.p {
+    padding: 20px;
+    font-size: 20px;
+    border-top: 2px solid rgb(231, 229, 229);
+}
+
+.a {
+    margin-right: 10px;
+}
