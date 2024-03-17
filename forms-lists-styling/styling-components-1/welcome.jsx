@@ -1,6 +1,7 @@
+import classes from "./Welcome.module.css"
 export function Welcome({ name, age }) {
     return (
-        <div className="welcome">
+        <div className={classes.welcome}>
             <p>Welcome, {name}!</p>
             {age > 18 && <Age age={age} />}
             {!!age && <Age age={age} />}
