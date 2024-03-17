@@ -19,7 +19,7 @@ export function TodoList() {
             <form onSubmit={addTodo}>
                 <input type="text" name='todo' />
                 <button type="submit">Add</button>
-                <button onClick={clearTodos} >Reset</button>
+                <button type="reset" onClick={clearTodos} >Reset</button>
             </form>
             <ul>
                 {todos.map((todo, index) => (
